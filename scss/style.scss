@@ -1,0 +1,258 @@
+@import "colores";
+//fonts
+$font_0: Urban;
+$font_1: odachi;
+$font_2: merriweather;
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+   }
+  /*-------------------------fuentes utilizadas------------------------------------------*/
+  @font-face{font-family:Urban;src: url(../elementos/font/UrbanJungleDEMO.otf);}/*  estilo de fuente (letra)  */
+  @font-face {font-family: odachi;src: url(../elementos/font/Odachi.woff);}
+  
+  @font-face{font-family: merriweather;src: url(../elementos/font/Merriweather-Light.otf);}
+  /*------------------------- fin de fuentes utilizadas------------------------------------------*/
+  
+	  /*-----------------------------------comienzo index---------------------------------*/
+  .fondoInicio{background:url(../elementos/img/044.jpg);min-height: 100vh;}/* imagen de fondo del index   */
+  .logoCentrado {text-align: center;transition: all 2s;}
+  .logoCentrado:hover{transform:scale(1.05);} /* ubicacion del logo   */
+  .ubicacionVideos{top: 90px; display:flex;justify-content:space-around ; align-items:flex-end;position: relative;}/*  ubicacion de los videos en el index  */
+  .video1{ transition: all 2s}
+  .video1:hover{transform:scale(1.1);}
+  .video2{ transition: all 2s}
+  .video2:hover{transform:scale(1.1);}
+  .video3{ transition: all 2s}
+  .video3:hover{transform:scale(1.1);}
+  /*-----------------------------------------fin del index------------------------------*/
+  
+	 /*------------------------------pagina 2 nosotros--------------------------------------*/ 
+  .fondoNosotros{background:url(../elementos/img/sakuras.jpg);min-height: 100vh}/*  imagen fondo nosotros  */
+  .historia__noticia{color:  rgb(59, 53, 136);}
+  .historiaNosotros {color: rgb(59, 53, 136);font-family: merriweather;line-height: 1.24;text-indent: 10px;}
+  .historiaNosotros1{color: rgb(59, 53, 136);font-family: merriweather;line-height: 1.24;}
+  .historiaNosotros2{font-size: 18px;color:rgb(163, 62, 62);font-family: merriweather;line-height: 1.24;}
+  
+   /* estilo y formato de la tabla informativa de los jugadores*/
+  .tabla1 {display: grid
+		  ;grid-template-columns: max-content;
+		  grid-template-rows: max-content;
+		  float: right;
+		  margin-left: 30px;color: rgb(59, 53, 136);font-size: 30px;font-family: odachi;text-align: center;
+		}
+  /*------------------------------ fin pagina 2 nosotros--------------------------------------*/ 
+  
+  /*----------------------------------------pagina 3 galeria--------------------------------------------*/   
+  .fondoGaleria{background:url(../elementos/img/m4a1.jpg) ;min-height: 100vh}/*  imagen de fondo galeria  */
+  .movimiento__galeria{text-align: center;}
+  .galery {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    grid-template-rows: repeat(2, 1fr);
+  .item {
+    transition: opacity 0.5s ease;
+    opacity: .2;
+  img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+     }
+  &:hover{
+    opacity: 2
+         }
+        }
+          }         
+ 
+
+  /*----------------------------------------fin pagina 3 galeria--------------------------------------------*/
+  
+  
+  /*---------------------------------------------pagina 4 versus-------------------------------------------*/  
+  .fondoVersus{background: url(../elementos/img/vaquero.jpg);min-height: 100vh}/*  imagen de fondo versus  */
+  /*---------------------------------------------fin pagina 4 versus-------------------------------------------*/  
+  
+  
+   /*--------------------------------------------pagina 5 contacto------------------------------------------*/ 
+  .fondoContacto{background: url(../elementos/img/heroico.jpg);min-height: 100vh}/*  imagen de fondo contacto  */
+   .formularioContacto{font-size: 30px; top: 400px;position: absolute;color: white;}
+  /*--------------------------------------------fin pagina 5 contacto------------------------------------------*/ 
+  
+  
+								  /*Alineamiento del menu de navegacion*/ 
+  .alineamientoMenu{ display: flex;flex-direction: row;justify-content:space-evenly; color: rgb(233, 37, 37);color: rgb(252, 18, 18);font-size: 38px;font-family:Urban;transition: all 1s;}
+  .alineamientoMenu:hover{transform:scale(1.05) ;}
+  
+  
+  h1{top: 80px;position: relative; font-size: 50px;color: rgb(250, 6, 6);font-family:Urban}
+  a{text-decoration: none; color: rgb(252, 249, 249);font-size: 30px;font-family:Urban}
+  
+  
+  h2{top: 95px;position: relative;color: white;font-size: 50px;font-family:Urban}
+  h3{top: 130px;position: relative; color:white;font-size: 40px;font-family:Urban}
+  h4{top: 140px;position: relative;color: white;}
+  
+	   
+  /* ------------------------------- estilo del footer --------------------------------------------------- */
+  .site-footer
+  {
+	background-color:#26272b;
+	padding:45px 0 20px;
+	font-size:15px;
+	line-height:24px;
+	color:#737373;
+  }
+  .site-footer hr
+  {
+	border-top-color:#bbb;
+	opacity:0.5
+  }
+  .site-footer hr.small
+  {
+	margin:20px 0
+  }
+  .site-footer h6
+  {
+	color:#fff;
+	font-size:16px;
+	text-transform:uppercase;
+	margin-top:5px;
+	letter-spacing:2px
+  }
+  .site-footer a
+  {
+	color:#737373;
+  }
+  .site-footer a:hover
+  {
+	color:#3366cc;
+	text-decoration:none;
+  }
+  .footer-links
+  {
+	padding-left:0;
+	list-style:none
+  }
+  .footer-links li
+  {
+	display:block
+  }
+  .footer-links a
+  {
+	color:#737373
+  }
+  .footer-links a:active,.footer-links a:focus,.footer-links a:hover
+  {
+	color:#3366cc;
+	text-decoration:none;
+  }
+  .footer-links.inline li
+  {
+	display:inline-block
+  }
+  .site-footer .social-icons
+  {
+	text-align:right
+  }
+  .site-footer .social-icons a
+  {
+	width:40px;
+	height:40px;
+	line-height:40px;
+	margin-left:6px;
+	margin-right:0;
+	border-radius:100%;
+	background-color:#33353d
+  }
+  .copyright-text
+  {
+	margin:0
+  }
+  @media (max-width:991px)
+  {
+	.site-footer [class^=col-]
+	{
+	  margin-bottom:30px
+	}
+  }
+  @media (max-width:767px)
+  {
+	.site-footer
+	{
+	  padding-bottom:0
+	}
+	.site-footer .copyright-text,.site-footer .social-icons
+	{
+	  text-align:auto
+	}
+  }
+  .social-icons
+  {
+	padding-left:0;
+	margin-bottom:0;
+	list-style:none
+  }
+  .social-icons li
+  {
+	display:inline-block;
+	margin-bottom:4px
+  }
+  .social-icons li.title
+  {
+	margin-right:15px;
+	text-transform:uppercase;
+	color:#96a2b2;
+	font-weight:700;
+	font-size:13px
+  }
+  .social-icons a{
+	background-color:#eceeef;
+	color:#818a91;
+	font-size:16px;
+	display:inline-block;
+	line-height:44px;
+	width:44px;
+	height:44px;
+	text-align:center;
+	margin-right:8px;
+	border-radius:100%;
+	-webkit-transition:all .2s linear;
+	-o-transition:all .2s linear;
+	transition:all .2s linear
+  }
+  .social-icons a:active,.social-icons a:focus,.social-icons a:hover
+  {
+	color:#fff;
+	background-color:#29aafe
+  }
+  .social-icons.size-sm a
+  {
+	line-height:34px;
+	height:34px;
+	width:34px;
+	font-size:14px
+  }
+  .social-icons a.facebook:hover
+  {
+	background-color:#3b5998
+  }
+  .social-icons a.instagram:hover
+  {
+   background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), 
+   radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), 
+   radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), 
+   radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), 
+   radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+	radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+	 radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  }
+  .social-icons a.youtube:hover
+  {
+	background-color:#c4302b
+  }
+  
+ 
