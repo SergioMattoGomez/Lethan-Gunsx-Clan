@@ -79,7 +79,7 @@ $font_2: merriweather;
   
    /*--------------------------------------------pagina 5 contacto------------------------------------------*/ 
   .fondoContacto{background: url(../elementos/img/heroico.jpg);min-height: 100vh}/*  imagen de fondo contacto  */
-   .formularioContacto{font-size: 30px; top: 400px;position: absolute;color: white;}
+   .formularioContacto{font-size: 30px; top: 400px;position: absolute;color: black;}
   /*--------------------------------------------fin pagina 5 contacto------------------------------------------*/ 
   
   
@@ -95,6 +95,7 @@ $font_2: merriweather;
   h2{top: 95px;position: relative;color: white;font-size: 50px;font-family:Urban}
   h3{top: 130px;position: relative; color:white;font-size: 40px;font-family:Urban}
   h4{top: 140px;position: relative;color: white;}
+  h5{font-size: 40 px;}
   
 	   
   /* ------------------------------- estilo del footer --------------------------------------------------- */

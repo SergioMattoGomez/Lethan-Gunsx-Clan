@@ -161,7 +161,7 @@
 .galery .item {
   -webkit-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
-  opacity: .4;
+  opacity: .5;
 }
 
 .galery .item img {
@@ -172,7 +172,7 @@
 }
 
 .galery .item:hover {
-  opacity: 1;
+  opacity: 2;
 }
 
 /*----------------------------------------fin pagina 3 galeria--------------------------------------------*/
@@ -195,7 +195,7 @@
   font-size: 30px;
   top: 400px;
   position: absolute;
-  color: white;
+  color: #050505;
 }
 
 /*--------------------------------------------fin pagina 5 contacto------------------------------------------*/

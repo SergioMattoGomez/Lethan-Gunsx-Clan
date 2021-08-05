@@ -114,7 +114,7 @@
   grid-template-rows: repeat(2, 1fr); }
   .galery .item {
     transition: opacity 0.5s ease;
-    opacity: .2; }
+    opacity: .5; }
     .galery .item img {
       width: 100%;
       height: 100%;
@@ -140,7 +140,7 @@
   font-size: 30px;
   top: 400px;
   position: absolute;
-  color: white; }
+  color: black; }
 
 /*--------------------------------------------fin pagina 5 contacto------------------------------------------*/
 /*Alineamiento del menu de navegacion*/
@@ -188,6 +188,9 @@ h4 {
   top: 140px;
   position: relative;
   color: white; }
+
+h5 {
+  font-size: 40 px; }
 
 /* ------------------------------- estilo del footer --------------------------------------------------- */
 .site-footer {
