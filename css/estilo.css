@@ -331,6 +331,9 @@ h5 {
     top: 60px; }
   .historia__noticia {
     top: 50px; }
+  .parrafosHistoria {
+    font-size: 20px;
+    display: contents; }
   h1 {
     top: 35px;
     position: relative; }
@@ -340,8 +343,6 @@ h5 {
     font-size: 0px; }
   form {
     margin-top: 38px; }
-  h4 {
-    top: 50px; }
   h5 {
     top: 25px; }
   .contacto {
