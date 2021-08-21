@@ -85,7 +85,7 @@ $font_2: merriweather;
   
 								  /*Alineamiento del menu de navegacion*/ 
   .alineamientoMenu{ display: flex;flex-direction: row;justify-content:space-evenly; color: rgb(233, 37, 37);color: rgb(252, 18, 18);font-size: 38px;font-family:Urban;transition: all 1s;}
-  .alineamientoMenu:hover{transform:scale(1.05) ;}
+  .alineamientoMenu:hover{transform:scale(1.01) ;}
   
   
   h1{top: 80px;position: relative; font-size: 50px;color: rgb(250, 6, 6);font-family:Urban}
@@ -255,5 +255,42 @@ $font_2: merriweather;
   {
 	background-color:#c4302b
   }
+
+  @media screen and (min-width: 480px) and (max-width:780px) {
+
+    .logoCentrado{width: 50%;}
+    
+
+    .video1, .video2, .video3 {width: 70%;}
   
- 
+    }
+  
+
+
+    @media screen and (max-width:480px) {
+      
+        .alineamientoMenu {
+          margin: 0px;
+          padding: 110px;
+          padding-left: 5%;
+          display: block;
+          float: none;
+          text-align: left; } 
+       
+
+          .video1, .video2, .video3 {width: 70%;}
+
+
+      .logo{height: 250px; width: 250px;}
+     
+      .ubicacionVideos {
+        margin: 0px;
+        padding: 0px;
+        padding-left: 5%;
+        display: block;
+        float: none;
+        text-align: left; } 
+        
+        .site-footer{margin-top:auto;}
+        
+      }

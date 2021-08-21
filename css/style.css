@@ -195,7 +195,7 @@
   font-size: 30px;
   top: 400px;
   position: absolute;
-  color: #050505;
+  color: black;
 }
 
 /*--------------------------------------------fin pagina 5 contacto------------------------------------------*/
@@ -220,8 +220,8 @@
 }
 
 .alineamientoMenu:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
 }
 
 h1 {
@@ -259,6 +259,10 @@ h4 {
   top: 140px;
   position: relative;
   color: white;
+}
+
+h5 {
+  font-size: 40 px;
 }
 
 /* ------------------------------- estilo del footer --------------------------------------------------- */
@@ -408,5 +412,43 @@ h4 {
 
 .social-icons a.youtube:hover {
   background-color: #c4302b;
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  .logoCentrado {
+    width: 50%;
+  }
+  .video1, .video2, .video3 {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .alineamientoMenu {
+    margin: 0px;
+    padding: 110px;
+    padding-left: 5%;
+    display: block;
+    float: none;
+    text-align: left;
+  }
+  .video1, .video2, .video3 {
+    width: 70%;
+  }
+  .logo {
+    height: 250px;
+    width: 250px;
+  }
+  .ubicacionVideos {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 5%;
+    display: block;
+    float: none;
+    text-align: left;
+  }
+  .site-footer {
+    margin-top: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
