@@ -366,9 +366,16 @@ h5 {
   .logoCentrado {
     width: 50%; }
   .logo {
-    text-align: center; }
+    height: 250px;
+    width: 250px;
+    position: relative;
+    display: flex;
+    top: 70px;
+    margin-left: 230px; }
   .video1, .video2, .video3 {
-    width: 70%; }
+    width: 70%;
+    margin-left: 40px;
+    top: 100px; }
   .subtitulo__noticia {
     top: 60px; }
   .historia__noticia {
