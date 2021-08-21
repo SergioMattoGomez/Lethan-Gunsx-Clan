@@ -256,6 +256,38 @@ $font_2: merriweather;
 	background-color:#c4302b
   }
 
+  @media screen and (min-width: 780px) and (max-width:1024px){
+
+    
+    .logoCentrado{width: 50%;}
+    .logo{height: 250px; width: 250px;position: relative;display: flex;top: 35px;margin-left: 368px; }
+    
+
+    .video1, .video2, .video3 {width: 70%; margin-left: 50px;}
+
+    .subtitulo__noticia{top: 60px;}
+    .historia__noticia{top: 50px;}
+    h1{top: 35px; position: relative;}
+    h2{margin-top: -37px;}
+    h3{font-size: 0px;}
+    form{margin-top: 38px}
+    h4{top: 50px;}
+    h5{top: 25px;}
+    .contacto{top: 50px;font-size: 45px;}
+    .completar{top: 50px;}
+    .colorFicha{color: rgb(3, 3, 3);}
+    button, input, select, textarea {color: black;}
+    .tabla1{font-size: 26px;color: black;font-weight: bold; background-color:#a9444259 ;}
+    .formularioContacto{display: contents; color: whitesmoke;}
+
+  
+  
+    
+
+
+
+  }
+
   @media screen and (min-width: 480px) and (max-width:780px) {
 
     .logoCentrado{width: 50%;}
