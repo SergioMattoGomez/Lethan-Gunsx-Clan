@@ -217,6 +217,7 @@
   font-family: Urban;
   -webkit-transition: all 1s;
   transition: all 1s;
+  text-decoration: none;
 }
 
 .alineamientoMenu:hover {
@@ -418,8 +419,20 @@ h5 {
   .logoCentrado {
     width: 50%;
   }
+  .logo {
+    text-align: center;
+  }
   .video1, .video2, .video3 {
     width: 70%;
+  }
+  .subtitulo__noticia {
+    top: 60px;
+  }
+  .historia__noticia {
+    top: 50px;
+  }
+  h4 {
+    top: 50px;
   }
 }
 
@@ -436,19 +449,50 @@ h5 {
     width: 70%;
   }
   .logo {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
+  }
+  .logoCentrado {
+    height: 200px;
+    width: 200px;
+    padding-left: 60px;
   }
   .ubicacionVideos {
     margin: 0px;
     padding: 0px;
     padding-left: 5%;
-    display: block;
+    display: contents;
     float: none;
     text-align: left;
   }
   .site-footer {
     margin-top: auto;
+  }
+  h1 {
+    margin-top: -190px;
+  }
+  form {
+    margin-top: 35px;
+  }
+  .formularioContacto {
+    display: contents;
+    font-size: 100%;
+  }
+  .titulo--posicion {
+    font-size: 0px;
+  }
+  h2 {
+    font-size: 0px;
+  }
+  h3 {
+    font-size: 0px;
+  }
+  h4 {
+    position: static;
+  }
+  tr {
+    color: black;
+    font-weight: bold;
   }
 }
 /*# sourceMappingURL=style.css.map */
