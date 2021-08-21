@@ -314,7 +314,7 @@ h5 {
 .social-icons a.youtube:hover {
   background-color: #c4302b; }
 
-@media screen and (min-width: 780px) and (max-width: 1024px) {
+@media screen and (min-width: 720px) and (max-width: 1024px) {
   .logoCentrado {
     width: 50%; }
   .logo {
@@ -362,7 +362,7 @@ h5 {
     display: contents;
     color: whitesmoke; } }
 
-@media screen and (min-width: 480px) and (max-width: 780px) {
+@media screen and (min-width: 480px) and (max-width: 720px) {
   .logoCentrado {
     width: 50%; }
   .logo {

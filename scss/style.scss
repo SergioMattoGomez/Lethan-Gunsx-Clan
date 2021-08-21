@@ -256,7 +256,7 @@ $font_2: merriweather;
 	background-color:#c4302b
   }
 
-  @media screen and (min-width: 780px) and (max-width:1024px){
+  @media screen and (min-width: 720px) and (max-width:1024px){
 
     
     .logoCentrado{width: 50%;}
@@ -288,7 +288,7 @@ $font_2: merriweather;
 
   }
 
-  @media screen and (min-width: 480px) and (max-width:780px) {
+  @media screen and (min-width: 480px) and (max-width:720px) {
 
     .logoCentrado{width: 50%;}
     .logo{height: 250px; width: 250px;position: relative;display: flex;top: 70px;margin-left: 230px; }
