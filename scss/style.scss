@@ -19,9 +19,10 @@ $font_2: merriweather;
   
 	  /*-----------------------------------comienzo index---------------------------------*/
   .fondoInicio{background:url(../elementos/img/044.jpg);min-height: 100vh;}/* imagen de fondo del index   */
+  .logo{height: 350px; width: 350px}
   .logoCentrado {text-align: center;transition: all 2s;}
   .logoCentrado:hover{transform:scale(1.05);} /* ubicacion del logo   */
-  .ubicacionVideos{top: 90px; display:flex;justify-content:space-around ; align-items:flex-end;position: relative;}/*  ubicacion de los videos en el index  */
+  .ubicacionVideos{top: 10px; display:flex;justify-content:space-around ; align-items:flex-end;position: relative;}/*  ubicacion de los videos en el index  */
   .video1{ transition: all 2s}
   .video1:hover{transform:scale(1.1);}
   .video2{ transition: all 2s}
@@ -32,17 +33,18 @@ $font_2: merriweather;
   
 	 /*------------------------------pagina 2 nosotros--------------------------------------*/ 
   .fondoNosotros{background:url(../elementos/img/sakuras.jpg);min-height: 100vh}/*  imagen fondo nosotros  */
-  .historia__noticia{color:  rgb(59, 53, 136);}
-  .historiaNosotros {color: rgb(59, 53, 136);font-family: merriweather;line-height: 1.24;text-indent: 10px;}
-  .historiaNosotros1{color: rgb(59, 53, 136);font-family: merriweather;line-height: 1.24;}
-  .historiaNosotros2{font-size: 18px;color:rgb(163, 62, 62);font-family: merriweather;line-height: 1.24;}
+  .subtitulo__noticia{top: 56px;}
+  .historia__noticia{color:  rgb(59, 53, 136);top: 37px;}
+  .historiaNosotros {color: rgb(59, 53, 136);font-family: merriweather;line-height: 1.24;text-indent: 10px;top: 29px;}
+  .historiaNosotros1{color: rgb(59, 53, 136);font-family: merriweather;line-height: 1.24;top: 22px;}
+  .historiaNosotros2{font-size: 18px;color:rgb(163, 62, 62);font-family: merriweather;line-height: 1.24;top: 11px;}
   
    /* estilo y formato de la tabla informativa de los jugadores*/
   .tabla1 {display: grid
 		  ;grid-template-columns: max-content;
 		  grid-template-rows: max-content;
 		  float: right;
-		  margin-left: 30px;color: rgb(59, 53, 136);font-size: 30px;font-family: odachi;text-align: center;
+		  margin-left: 30px;color: rgb(255, 255, 255);font-size: 25px;font-family: odachi;text-align: center;background-color: #a33e3e59;
 		}
   /*------------------------------ fin pagina 2 nosotros--------------------------------------*/ 
   
@@ -79,12 +81,12 @@ $font_2: merriweather;
   
    /*--------------------------------------------pagina 5 contacto------------------------------------------*/ 
   .fondoContacto{background: url(../elementos/img/heroico.jpg);min-height: 100vh}/*  imagen de fondo contacto  */
-   .formularioContacto{font-size: 30px; top: 400px;position: absolute;color: black;}
+   .formularioContacto{font-size: 25px; top: 317px;position: absolute;color: black;}
   /*--------------------------------------------fin pagina 5 contacto------------------------------------------*/ 
   
   
 								  /*Alineamiento del menu de navegacion*/ 
-  .alineamientoMenu{ display: flex;flex-direction: row;justify-content:space-evenly; color: rgb(233, 37, 37);color: rgb(252, 18, 18);font-size: 38px;font-family:Urban;transition: all 1s;text-decoration: none;}
+  .alineamientoMenu{ display: flex;flex-direction: row;justify-content:space-evenly; color: rgb(233, 37, 37);color: rgb(252, 18, 18);font-size: 28px;font-family:Urban;transition: all 1s;text-decoration: none;}
   .alineamientoMenu:hover{transform:scale(1.01) ;}
   
   
@@ -92,8 +94,8 @@ $font_2: merriweather;
   a{text-decoration: none; color: rgb(252, 249, 249);font-size: 30px;font-family:Urban}
   
   
-  h2{top: 95px;position: relative;color: white;font-size: 50px;font-family:Urban}
-  h3{top: 130px;position: relative; color:white;font-size: 40px;font-family:Urban}
+  h2{top: 57px;position: relative;color: white;font-size: 50px;font-family:Urban}
+  h3{top: 40px;position: relative; color:white;font-size: 40px;font-family:Urban}
   h4{top: 140px;position: relative;color: white;}
   h5{font-size: 40 px;}
   
@@ -254,39 +256,6 @@ $font_2: merriweather;
   .social-icons a.youtube:hover
   {
 	background-color:#c4302b
-  }
-
-  @media screen and (min-width: 720px) and (max-width:1366px){
-
-    
-    .logoCentrado{width: 50%;}
-    .logo{height: 250px; width: 250px;position: relative;display: flex;top: 35px;margin-left: 368px; }
-    
-
-    .video1, .video2, .video3 {width: 70%; margin-left: 50px;}
-
-    .subtitulo__noticia{top: 60px;}
-    .historia__noticia{top: 50px;}
-    .parrafosHistoria{font-size: 20px;display: contents;}
-    h1{top: 35px; position: relative;}
-    h2{margin-top: -37px;}
-    h3{font-size: 0px;}
-    form{margin-top: 38px}
-   
-    h5{top: 25px;}
-    .contacto{top: 50px;font-size: 45px;}
-    .completar{top: 50px;}
-    .colorFicha{color: rgb(3, 3, 3);}
-    button, input, select, textarea {color: black;}
-    .tabla1{font-size: 26px;color: black;font-weight: bold; background-color:#a9444259 ;}
-    .formularioContacto{display: contents; color: whitesmoke;}
-
-  
-  
-    
-
-
-
   }
 
   @media screen and (min-width: 480px) and (max-width:720px) {

@@ -24,6 +24,10 @@
   min-height: 100vh; }
 
 /* imagen de fondo del index   */
+.logo {
+  height: 350px;
+  width: 350px; }
+
 .logoCentrado {
   text-align: center;
   transition: all 2s; }
@@ -33,7 +37,7 @@
 
 /* ubicacion del logo   */
 .ubicacionVideos {
-  top: 90px;
+  top: 10px;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
@@ -65,25 +69,32 @@
   min-height: 100vh; }
 
 /*  imagen fondo nosotros  */
+.subtitulo__noticia {
+  top: 56px; }
+
 .historia__noticia {
-  color: #3b3588; }
+  color: #3b3588;
+  top: 37px; }
 
 .historiaNosotros {
   color: #3b3588;
   font-family: merriweather;
   line-height: 1.24;
-  text-indent: 10px; }
+  text-indent: 10px;
+  top: 29px; }
 
 .historiaNosotros1 {
   color: #3b3588;
   font-family: merriweather;
-  line-height: 1.24; }
+  line-height: 1.24;
+  top: 22px; }
 
 .historiaNosotros2 {
   font-size: 18px;
   color: #a33e3e;
   font-family: merriweather;
-  line-height: 1.24; }
+  line-height: 1.24;
+  top: 11px; }
 
 /* estilo y formato de la tabla informativa de los jugadores*/
 .tabla1 {
@@ -92,10 +103,11 @@
   grid-template-rows: max-content;
   float: right;
   margin-left: 30px;
-  color: #3b3588;
-  font-size: 30px;
+  color: white;
+  font-size: 25px;
   font-family: odachi;
-  text-align: center; }
+  text-align: center;
+  background-color: #a33e3e59; }
 
 /*------------------------------ fin pagina 2 nosotros--------------------------------------*/
 /*----------------------------------------pagina 3 galeria--------------------------------------------*/
@@ -137,8 +149,8 @@
 
 /*  imagen de fondo contacto  */
 .formularioContacto {
-  font-size: 30px;
-  top: 400px;
+  font-size: 25px;
+  top: 317px;
   position: absolute;
   color: black; }
 
@@ -150,7 +162,7 @@
   justify-content: space-evenly;
   color: #e92525;
   color: #fc1212;
-  font-size: 38px;
+  font-size: 28px;
   font-family: Urban;
   transition: all 1s;
   text-decoration: none; }
@@ -172,14 +184,14 @@ a {
   font-family: Urban; }
 
 h2 {
-  top: 95px;
+  top: 57px;
   position: relative;
   color: white;
   font-size: 50px;
   font-family: Urban; }
 
 h3 {
-  top: 130px;
+  top: 40px;
   position: relative;
   color: white;
   font-size: 40px;
@@ -313,55 +325,6 @@ h5 {
 
 .social-icons a.youtube:hover {
   background-color: #c4302b; }
-
-@media screen and (min-width: 720px) and (max-width: 1024px) {
-  .logoCentrado {
-    width: 50%; }
-  .logo {
-    height: 250px;
-    width: 250px;
-    position: relative;
-    display: flex;
-    top: 35px;
-    margin-left: 368px; }
-  .video1, .video2, .video3 {
-    width: 70%;
-    margin-left: 50px; }
-  .subtitulo__noticia {
-    top: 60px; }
-  .historia__noticia {
-    top: 50px; }
-  .parrafosHistoria {
-    font-size: 20px;
-    display: contents; }
-  h1 {
-    top: 35px;
-    position: relative; }
-  h2 {
-    margin-top: -37px; }
-  h3 {
-    font-size: 0px; }
-  form {
-    margin-top: 38px; }
-  h5 {
-    top: 25px; }
-  .contacto {
-    top: 50px;
-    font-size: 45px; }
-  .completar {
-    top: 50px; }
-  .colorFicha {
-    color: #030303; }
-  button, input, select, textarea {
-    color: black; }
-  .tabla1 {
-    font-size: 26px;
-    color: black;
-    font-weight: bold;
-    background-color: #a9444259; }
-  .formularioContacto {
-    display: contents;
-    color: whitesmoke; } }
 
 @media screen and (min-width: 480px) and (max-width: 720px) {
   .logoCentrado {
